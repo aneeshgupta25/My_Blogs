@@ -1,0 +1,60 @@
+@media screen and (max-width: 800px) {
+    #welcome-text1 {
+        font-size: 40px;
+    }
+    .blog-content {
+        grid-gap: 15px;
+    }
+    .contact-details p {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .intro-lines {
+        flex-direction: column-reverse;
+    }
+    .left-intro {
+        width: 100%;
+    }
+    .right-intro {
+        width: 50%;
+    }
+    #president {        
+        flex-direction: column;
+    }
+    #president-right p{
+        font-size: 20px;
+    }   
+    .navigation {
+        flex-direction: column;
+        height: 100px;
+        margin-bottom: 48px;
+    }
+    .navigation-left {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation-right {
+        margin-top: 6px;
+    }   
+    .intro-lines p{
+        text-align: center;
+    }
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+    .content-left {
+        width: 65%;
+    }
+    .content-right {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .left-intro p{
+        font-size: 25px;
+    }    
+}

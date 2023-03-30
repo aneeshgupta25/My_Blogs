@@ -1,0 +1,144 @@
+#blogpost-body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)),
+        url("../img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.blogpost-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blogpost-head p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.blogpost-head p.height-2 {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.blogpost-head p.height-3 {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.blogpost-content p {
+    margin-top: 5px;
+}
+
+#blog-hand {
+    font-size: 25px;
+}
+
+.intro-lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.left-intro {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+.right-intro {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.right-intro img {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.divider1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 3px;
+    background-color: white
+}
+
+.divider2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 1px;
+    background-color: white
+}
+
+.blogpost-subhead {
+    font-style: italic;
+}
+
+.blogpost-content ul {
+    list-style-type: square;    
+}
+
+#president {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#president-left {
+    margin-top: 25px;
+    width: 50%;
+}
+
+#president-right {
+    width: 50%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#president-left img {
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+}
+
+#painting-demo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.paintings img {
+    width: 100%;
+    height: 100%;
+}
+
+.paintings {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.blogpost-content ul li ul {
+    list-style: circle;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#finishing-line {
+    text-align: center;
+}

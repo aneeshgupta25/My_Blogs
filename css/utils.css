@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif&family=Roboto:wght@300&display=swap');
+
+:root {
+    --my-font1: 'EB Garamond', serif;
+    --my-font2: 'Roboto', sans-serif;
+}
+
+.font1 {
+    font-family: var(--my-font1);
+}
+
+.font2 {
+    font-family: var(--my-font2);
+}
+
+.width-1 {
+    /* width won't work in case of responsiveness, will add horizontal scroll bar in case of smaller screen
+    max-wodth handles responsiveness */
+    max-width: 80vw;
+}
+
+.width-2 {
+    max-width: 60vw; 
+}
+
+.height-1 {
+    font-size: 50px;
+}
+
+.height-2 {
+    font-size: 35px;
+}
+.height-3 {
+    font-size: 30px;
+}
+.height-4 {
+    font-size: 25px;
+}
+
+.height-5 {
+    font-size: 20px;
+}
+
+.height-6 {
+    font-size: 15px;
+}
+
+.margin-auto {
+    margin: 25px auto 0px auto
+}
+
+.search-button {
+    font-family: var(--my-font1);
+}
+
+.wcolor {
+    color: white;
+}
+
+.gcolor {
+    color: #9CCC65;
+}
+
+.bcolor {
+    color: cyan
+}
+
+.pcolor {
+    color: pink;
+}
+
+.ycolor {
+    color: #FFE082
+}
+
+.card {
+    box-shadow: 0px 5px 8px 0 rgba(265,265,265,0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 5px 6px 8px 6px rgba(265,265,265,0.2);
+}

@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.home-body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/write_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.navigation {            
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    /* background-color: rgb(244, 222, 244); */
+    font-family: var(--my-font1);
+}
+
+.navigation-left {    
+    display: flex;
+    font-size: 35px;
+}
+
+.navigation-left ul {
+    display: flex;
+    margin: 0px 74px;
+}
+
+.navigation-left ul li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.navigation-left ul li div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-left ul li a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.content {
+    display: flex;
+    height: auto;
+    /* background-color: rgb(193, 243, 243); */
+}
+
+.content-left {
+    display: flex;    
+    width: 50%;
+    justify-content: center;
+}
+
+.content-left img {
+    width: 60%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 150px;
+}
+
+.content-right {
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.welcome-texts {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-texts p {
+    text-align: center;
+}
+
+#welcome-text2 {
+    margin-top: 11px;    
+}
+
+#welcome-text3 {
+    margin-top: 17px;    
+}
+
+.blog-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));    
+    grid-gap: 25px;    
+    /* background-color: pink; */
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 5px;    
+}
+
+.blog a {
+    text-decoration: none;
+}
+
+.blog-head {
+    text-align: center;    
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.blog-brief {    
+    font-size: 20px;
+    text-align: center;
+}
+
+#blog-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img/bg1.jpg);    
+}
+
+#blog-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img/bg2.jpg);    
+}
+
+#blog-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img/bg3.jpg);    
+}
+
+#blog-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img/bg4.jpg);
+}
+
+#blog-5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img/bg5.jpg);
+}
+
+#blog-6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img/bg6.jpg);
+}
+
+#blog-7 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img/bg7.jpg);
+}
+
+#blog-8 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img/bg8.jpg);
+}
+
+#blog-9 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img/bg9.jpg);
+}
+
+.blog-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;        
+    /* background-color: rgb(246, 246, 224); */
+}
+
+.footer p {
+    text-align: center;
+}
+
+.search-field {
+    margin: 0px 18px;
+    padding: 7px 7px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.search-button {
+    font-family: var(--my-font1);
+    padding: 6px 11px;
+    border-radius: 7px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.search-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.search-result p{
+    font-size: 30px;     
+}
+
+.view_button {
+    padding: 5px 14px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.view_button p {
+    font-weight: bolder;
+}
