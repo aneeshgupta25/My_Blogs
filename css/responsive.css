@@ -4,13 +4,11 @@
     }
     .blog-content {
         grid-gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
     }
     .contact-details p {
         font-size: 40px;
-    }
-    .blog-content {        
-        grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));      
-    }
+    }    
 }
 @media screen and (max-width: 1090px) {
     .intro-lines {
